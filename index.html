@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portfolio of MD Shafiul Alam Sagar - Programmer and Tech Enthusiast.">
+  <meta name="keywords" content="portfolio, programmer, tech, projects">
+  <meta name="author" content="MD Shafiul Alam Sagar">
+  <title>MD Shafiul Alam Sagar - Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="profile-container">
+      <img src="profile.jpeg" alt="Profile Picture" class="profile-img">
+      <h1>MD Shafiul Alam Sagar</h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+      <button id="theme-toggle">🌙</button>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <h2>About Me</h2>
+      <p><p>Hello! I'm <strong>MD Shafiul Alam Sagar</strong>, a passionate <strong>Python developer</strong> with a keen interest in <strong>Machine Learning</strong> and <strong>Django-based web development</strong>. I enjoy solving complex problems through code and continuously expanding my skill set.</p>
+
+      <p>Currently, I specialize in <strong>building scalable web applications with Django</strong> and <strong>exploring the world of data-driven decision-making with Machine Learning</strong>. In addition to my development expertise, I am eager to deepen my knowledge of <strong>Linux</strong> and <strong>Ethical Hacking</strong>, aiming to strengthen my understanding of security and system administration.</p>
+      
+      <p>With a mindset for <strong>continuous learning</strong> and <strong>innovation</strong>, I am excited about opportunities that challenge me to grow and contribute meaningfully. Feel free to connect with me—let’s build something amazing together!</p>
+      </p>
+    </section>
+
+    <section id="skills">
+      <h2>Skills</h2>
+      <div class="skills-grid">
+        <div class="skill">Python</div>
+        <div class="skill">Django</div>
+        <div class="skill">Mchine Learning</div>
+        <div class="skill">Linux (Gonna learn soon)</div>
+        <div class="skill">Ethical Hacking (Gonna learn soon)</div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <h2>Projects</h2>
+      <div class="project">
+        <h3>Project 1: To Do list</h3>
+        <p><h4><strong>Project Overview</strong></h4>
+            <p>The <strong>To-Do List CLI Application</strong> is a simple yet functional task management system built using <strong>Python</strong>. 
+               This command-line interface (CLI) application allows users to <strong>add, view, and mark tasks as completed</strong>, 
+               helping them stay organized and track their progress efficiently.</p>
+            
+            <h4><strong>Features</strong></h4>
+            <p><strong>Add a Task:</strong> Users can enter tasks to be completed.</p>
+            <p><strong>View Tasks:</strong> Displays a numbered list of all pending tasks.</p>
+            <p><strong>Mark Task as Done:</strong> Users can mark tasks as completed, moving them to a separate "Done" list.</p>
+            <p><strong>View Completed Tasks:</strong> Users can review the tasks they have already finished.</p>
+            <p><strong>Simple and Interactive Menu:</strong> A user-friendly menu system guides users through the app.</p>
+            
+            <h4><strong>How It Works</strong></h4>
+            <p>The application starts with a <strong>menu</strong>, allowing users to choose an action.</p>
+            <p>Users can <strong>add tasks</strong> by typing them into the system.</p>
+            <p>When choosing to <strong>view tasks</strong>, the program lists all pending tasks.</p>
+            <p>Users can <strong>mark a task as done</strong> by entering the task number. The completed task is removed from the pending list and added to the "Done" list.</p>
+            <p>Users can also <strong>view their completed tasks</strong> at any time.</p>
+            
+            <h4><strong>Technology Used</strong></h4>
+            <p><strong>Programming Language:</strong> Python</p>
+            <p><strong>Concepts Used:</strong> Lists, Functions, Loops, Conditional Statements</p>
+            
+            <h4><strong>Future Enhancements</strong></h4>
+            <p>Implementing <strong>task deadlines and priorities</strong></p>
+            <p>Adding <strong>data persistence</strong> using files or a database</p>
+            <p>Creating a <strong>GUI version</strong> using Tkinter or a web version using Django</p></p>
+        <a href="https://github.com/mdshafiulalamsagar/python_projects/blob/main/to-do_list.py" target="_blank">View on GitHub</a>
+      </div>
+      <div class="project">
+        <h3>Project 2: Youtube video downloader</h3>
+        <p><h4><strong>Project Overview</strong></h4>
+            <p>The <strong>YouTube Video Downloader</strong> is a Python-based command-line application that allows users to download videos from YouTube using the <strong>yt-dlp</strong> library. 
+               This tool provides an easy and efficient way to save YouTube videos locally in the best available quality.</p>
+            
+            <h4><strong>Features</strong></h4>
+            <p><strong>Download Videos in Best Quality:</strong> The script automatically selects the highest video and audio quality available.</p>
+            <p><strong>Custom Save Location:</strong> Videos are saved in a designated <strong>Downloads</strong> folder with proper filenames.</p>
+            <p><strong>Single Video Download:</strong> The script ensures that only individual videos are downloaded (no playlists).</p>
+            <p><strong>Progress Indication:</strong> Users can see the download status while the video is being saved.</p>
+            <p><strong>Multiple Downloads:</strong> Users can input multiple video links in one session.</p>
+            <p><strong>Error Handling:</strong> Provides user-friendly error messages if the download fails.</p>
+            
+            <h4><strong>How It Works</strong></h4>
+            <p>The user enters the <strong>YouTube video URL</strong> in the terminal.</p>
+            <p>The script downloads the video in the <strong>best available quality</strong>.</p>
+            <p>The video is <strong>saved locally</strong> in the <strong>Downloads</strong> folder.</p>
+            <p>The user can enter another URL or type <strong>'exit'</strong> to quit the program.</p>
+            
+            <h4><strong>Technology Used</strong></h4>
+            <p><strong>Programming Language:</strong> Python</p>
+            <p><strong>Libraries:</strong> yt-dlp for video downloading</p>
+            
+            <h4><strong>Future Enhancements</strong></h4>
+            <p><strong>MP3 Audio Extraction:</strong> Option to download only the audio as an MP3 file.</p>
+            <p><strong>Playlist Support:</strong> Ability to download entire YouTube playlists.</p>
+            <p><strong>GUI Version:</strong> Implement a user-friendly graphical interface using Tkinter or PyQt.</p>
+            <p><strong>URL Validation:</strong> Check if the provided link is a valid YouTube URL before downloading.</p></p>
+        <a href="https://github.com/mdshafiulalamsagar/python_projects/blob/main/youtube_video_downloader.py" target="_blank">View on GitHub</a>
+      </div>
+    </section>
+
+    <section id="contact">
+      <h2>Contact</h2>
+      <p>Feel free to reach out to me at <a href="mailto:m.shafiulalamsagar@gmail.com">this e-mail</a>.</p>
+      <p>Download my <a href="cv.pdf" download>CV</a>.</p>
+      <div class="social-links">
+        <a href="https://github.com/mdshafiulalamsagar" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/mdshafiulalamsagar" target="_blank">LinkedIn</a>
+        <a href="https://https://www.facebook.com/md.shafiul.sagar/" target="_blank">Facebook</a>
+        <a href="https://yourwebsite.com" target="_blank">Website</a>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 MD Shafiul Alam Sagar. All rights reserved.</p>
+  </footer>
+
+  <script src="scripts.js"></script>
+</body>
+</html>
